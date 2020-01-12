@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <%- include('header'); -%>
+  <body class="text-center">
+        <form action="/login"  method="post" class="form-signin">
+          <h1><b>Smart</b>Home</h1>
+          <p class="login-box-msg"><span style="color:red"><%= error %></span></p>
+          <input type="text" name="user" class="form-control" placeholder="Usuário">
+          <input type="password" name="pass" class="form-control" placeholder="Senha">
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Entrar</button>
+        </form>
+        <%- include('footer'); -%>
+  </body>
+</html>

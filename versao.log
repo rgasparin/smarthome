@@ -1,0 +1,14 @@
+********** 1.0 ********** - 28/09/2018
+- Tela de Login
+- Login com mysql
+- Tela home
+- Tela portão
+- Layout responsivo bootstrap
+- Usando layout baseado no AdminLTE
+
+********** 1.1 ********** - 23/10/2018
+- Reformulação layout login
+
+********** 1.2 ********** - 15/02/2019
+- Ajustando conexão com mariadb
+- Ajustando mensagem de erro login errado
